@@ -1,0 +1,35 @@
+package Primeros_ejercicios;
+
+import java.util.Scanner;
+
+public class Boletin8 {
+	
+	private static Scanner com;
+
+	public static void main(String[] args) {	
+			
+		double n1,n2;
+			
+		System.out.println("Ingrese un número:");
+	    Scanner com = new Scanner (System.in);
+	    n1= com.nextDouble();
+	    	
+	    System.out.println("Ingrese otro número");
+	    n2= com.nextDouble();
+	    if (n1>n2) {
+	    	
+	    System.out.println("Primer número es mayor que el segundo");
+	    }
+	    else if (n1==n2) {
+	    	    	
+	    System.out.println("Números son iguales");
+	    }    
+	    else {
+	    		
+	    System.out.println("Segundo número es mayor que el primero");
+	   
+	    }
+	
+		}
+	
+}

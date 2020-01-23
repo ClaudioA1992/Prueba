@@ -1,0 +1,12 @@
+package Primeros_ejercicios;
+
+public class Ejercicio1 {
+    public static void main(String [] args) {
+    
+    System.out.println("Hola curso");
+    System.out.println(56);
+    
+    
+    }
+    
+}

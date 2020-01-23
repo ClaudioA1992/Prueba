@@ -1,0 +1,29 @@
+package Primeros_ejercicios;
+
+import java.util.Scanner;
+
+public class Boletin6 {
+
+	private static Scanner radio;
+
+	public static void main(String[] args) {
+		
+		double n1,n2;
+		
+		System.out.println("Ingrese un número:");
+    	Scanner num = new Scanner (System.in);
+    	n1= num.nextDouble();
+    	
+    	System.out.println("Ingrese otro número");
+    	n2= num.nextDouble();
+    	
+    	if (n1%n2==0);
+    	
+    	    System.out.println("Segundo número es múltiplo del primero");
+    	
+    	
+    	
+    }
+    	
+}
+

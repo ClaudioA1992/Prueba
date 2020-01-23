@@ -1,0 +1,32 @@
+package Primeros_ejercicios;
+
+import java.util.Scanner;
+
+public class Boletin4 {
+
+	private static Scanner radio;
+
+	public static void main(String[] args) {
+		
+		double n1,n2;
+		
+		System.out.println("Ingrese número 1");
+		
+    	Scanner num = new Scanner (System.in);
+    	n1= num.nextInt();
+    	
+    	if (n1 == n2) {
+    		
+    		System.out.println("Número son iguales");
+    	}
+    	else
+    	
+    	    System.out.println("Números no son iguales");
+    	
+    	}
+    	
+    	
+
+	}
+	
+}

@@ -1,0 +1,23 @@
+/*Hacer pseudocódigo para sumar dos
+ * números leídos por teclado y escribir el resultado
+ */
+
+package Primeros_ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio01 {
+	
+	public static void main(String[] args) {
+		
+	
+    int num1,num2,suma;
+	Scanner numero = new Scanner (System.in);
+	System.out.println("Ingrese el primer número");
+    num1= numero.nextInt();
+    System.out.println("Ingrese el segundo número");
+    num2= numero.nextInt();
+    suma= num1+num2;
+    System.out.println("La suma es" +suma);
+	}
+}

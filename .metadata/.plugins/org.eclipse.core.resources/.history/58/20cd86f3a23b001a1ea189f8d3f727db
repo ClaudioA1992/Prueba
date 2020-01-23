@@ -1,0 +1,12 @@
+/*Hacer pseudocódigo para sumar dos
+ * números leídos por teclado y escribir el resultado
+ */
+
+package Primeros_ejercicios;
+
+import java.util.Scanner;
+
+public class Ejercicio01 {
+
+	Scanner numero = new Scanner (System.in);
+}
